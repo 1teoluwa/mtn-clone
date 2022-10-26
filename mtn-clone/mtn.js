@@ -1,0 +1,13 @@
+$(document).ready(function(){
+$(".investorscontainer").mouseenter(function(){
+    (".investorschild").show()
+    $(".investorschild").mouseenter(function(){  
+        $(".investorschild").show()
+})
+})
+$(".investorscontainer").mouseleave(function(){
+    (".investorschild").hide()
+    $(".investorschild").mouseleave(function(){  
+        $(".investorschild").hide()
+})
+})

@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+}
+body{
+  font-family: MTN Brighter Sans Bold;
+}
+.navbar-nav{
+  font-weight: 400;
+}
+@media all and (max-width: 688px){
+  #container{
+    display: none;
+  }
+}
+ #container{
+  justify-content: space-between;
+  font-family: MTN Brighter Sans;
+}
+.investorscontainer{
+  cursor: pointer;
+}
+.investorscontainer:hover{
+  cursor: pointer;
+  position: absolute;
+
+}
+.investorschild{
+   min-width: fit-content; 
+   display: none;
+   background-color: #4c4c4c; 
+   position: absolute; 
+   z-index: 2; 
+  list-style: none;
+  font-family: MTN Brighter Sans;
+  cursor:pointer;
+}
+.carousel-caption{
+  margin-bottom: 30vh; 
+  margin-right: 2300px;
+  white-space: nowrap;
+  font-weight: 300;
+  font-family: MTN Brighter Sans Light;
+}
+.carousel-caption h1{
+  font-size: 4rem;
+  white-space: nowrap;
+  font-family: MTN Brighter Sans ;
+}
+
+@media all and (max-width: 1025px){
+  .carousel-caption {
+    font-size: 2vw!important;
+    width: 100%;
+    height: auto;
+    margin-bottom: -220px;
+    margin-left: -30%;
+  }
+  .carousel-caption h1{
+    font-size: 4vw!important;
+    width: 100%;
+  }
+}
+#box{
+  width: 120px;
+  display:inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*@font-face {
+  font-family: MTNBrighterSans-Bold;
+  src: url('MTN.ZIP/MTNBrighterSans-Bold.otf') format("opentype");
+}
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and(max-width: 688px){
+  #container{
+    display: none;
+  }
+}
+ #container{
+  justify-content: space-between;
+}
+.carousel-caption{
+  bottom: 30vh;
+  margin-right: 2800px;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.carousel-caption h1{
+  font-size: 4rem;
+  white-space: nowrap;
+}
+@media only screen and(max-width: 600px){
+  .carousel-caption h1{
+    margin-bottom: 80vh!important;
+    font-size: 50px!important;
+    width: 100%;
+  }
+}*/
